@@ -45,4 +45,13 @@ public class Member {
     public void showInfo(){
         System.out.println("name : "+this.name+", id : "+getId()+", point : "+getPoint());
     }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", point=" + point +
+                '}';
+    }
 }
