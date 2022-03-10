@@ -45,3 +45,4 @@ public class Point {
         System.out.println("점 [x="+x+", y="+this.y+"]을 지웠습니다.");
     }
 }
+
