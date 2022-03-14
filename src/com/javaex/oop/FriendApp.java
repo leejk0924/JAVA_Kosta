@@ -14,15 +14,10 @@ public class FriendApp {
             String[] split = input.split(" ");                            // split[]에 input 으로 받은 값 자르기 (.split 으로 " " 마다 자르기
             friendArray[i] = new Friend(split[0], split[1], split[2]);          // friendArray[0] <- 참조 변수에  Friend 객체 생성해서 넣기
         }                                                                       // for문으로 반복
+        sc.close();
 
         for (int i = 0; i < friendArray.length; i++) {
             friendArray[i].showInfo();
         }
-
-        // 친구정보 출력
-        for (int i = 0; i < friendArray.length; i++) {
-            //친구정보 출력 메소드 호출
-        }
-        sc.close();
     }
 }
